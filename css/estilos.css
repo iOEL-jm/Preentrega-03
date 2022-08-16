@@ -1,0 +1,211 @@
+/* index */
+
+.color-fondo--index {
+    background-color: #16537e;
+}
+
+.texto-blanco--index {
+    color: white;
+}
+
+.texto-negro--index {
+    color: black;
+}
+
+.box-modeling-necesario--index  {
+    padding: 15px 0px 0px 0px;
+}
+
+.animation {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* servicios */
+
+.color-fondo--servicios {
+    background-color: #16537e;
+}
+
+.colocacion {
+    display: grid;
+    
+    grid-template-areas:
+    "SERVICIOS PRECIOS SE-PAGA-POR"
+    "Desarrollo-web-de-tu-pagina USD Pagina-y-hora-trabajada"
+    "Front-end-de-tu-pagina USD complejidad-del-proyecto"
+    "Back-end-de-tu-pagina USD complejidad-del-proyecto";
+}
+
+.color-fondo-2 {
+    background-color: cadetblue;
+}
+
+.texto-blanco--servicios {
+    color: white;
+}
+
+.texto-negro--servicios {
+    color: black;
+}
+
+.espacio-palabras-tabla {
+    padding: 5px;
+} 
+
+.borde {
+    border: solid 1.5px black;
+}
+
+.box-modeling-nesesario--servicios {
+   padding: 15px 0px 0px 0px; 
+}
+
+.animation--servicios {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* portfolio */
+
+.color-fondo--portfolio {
+    background-color: #16537e;
+}
+
+.texto-blanco--portfolio {
+    color: white;
+}
+
+.tamaño-imagenes--portfolio {
+    width: 500px;
+}
+
+.orden-imagenes--portfolio {
+    display: flex;
+    justify-content: start;
+}
+
+.box-modeling-necesario--portfolio {
+   padding: 15px 0px 0px 0px; 
+} 
+
+.animation--portfolio {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* sobre mi */
+
+.color-fondo--sobre-mi {
+    background-color: #16537e;
+}
+
+.texto-blanco--sobre-mi {
+    color: white;
+}
+
+.tamaño-imagen--sobre-mi {
+    width: 200px;
+    padding-left: 5px;
+}
+
+.orden-texto-imagen--sobre-mi {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.tamaño-texto--sobre-mi {
+    font-size: 31px;
+}
+
+.box-modeling-necesario--sobre-mi {
+    padding: 15px 0px 0px 0px;
+} 
+
+.animation--sobre-mi {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+/* contacto */
+
+.color-fondo--contacto {
+    background-color: #16537e;
+}
+
+.texto-blanco--contacto {
+    color: white;
+}
+
+.texto-negro--contacto {
+    color: black;
+}
+
+.box-modeling-necesario--contacto {
+    padding: 15px 0px 0px 0px;
+}
+
+.animation--contacto {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
