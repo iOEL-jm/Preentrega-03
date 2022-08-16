@@ -104,10 +104,10 @@
     width: 500px;
 }
 
-.orden-imagenes--portfolio {
+/* .orden-imagenes--portfolio {
     display: flex;
     justify-content: start;
-}
+} */
 
 .box-modeling-necesario--portfolio {
    padding: 15px 0px 0px 0px; 
